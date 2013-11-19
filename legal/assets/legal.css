@@ -4,12 +4,10 @@ body {
   color: #303030;
   position: relative;
   text-indent: 0;
-
-  /* set width and centre */
-  width: 55em;
   font-size: 11px;
-  padding: 0px;
-  margin: 0 auto 1em;
+
+  /* adjust padding before front page */
+  padding-top: 20mm;
 }
 
 /*
@@ -25,6 +23,7 @@ hr { page-break-after: always; border: 0px; }
 */
 
 h1 { page-break-before: always; }
+h1, h2, h3, h4 { break-after: avoid; }
 ol { page-break-before: avoid; page-break-inside: avoid; }
 
 /*
