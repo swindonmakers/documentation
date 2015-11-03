@@ -335,10 +335,10 @@ version:      Draft
         constitute the quorum for that meeting.
 
 15. 1.  General meetings shall be chaired by the person who has been
-        appointed to chair meetings of the directors.
+        appointed to chair meetings by the directors.
 
-    2.  If there is no such person or he or she is not present within
-        fifteen minutes of the time appointed for the meeting a director
+    2.  If there is no such person, or he or she is not present within
+        fifteen minutes of the time appointed for the meeting, a director
         nominated by the directors shall chair the meeting.
 
     3.  If there is only one director present and willing to act, he or
@@ -349,7 +349,7 @@ version:      Draft
         the members present in person or by proxy and entitled to vote
         must choose one of their number to chair the meeting.
 
-16. 1.  The members present in person or by proxy at a meeting may
+16. 1.  The members present in person, or by proxy, at a meeting may
         resolve by ordinary resolution that the meeting shall be
         adjourned.
 
@@ -756,7 +756,7 @@ version:      Draft
 
         2.  the identities of the directors involved; and
 
-        3.  the identities of the directors involved; and
+        3.  a summary of the discussion
 
     4.  Minutes of directors meetings:
 
