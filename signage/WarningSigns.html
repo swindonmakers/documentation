@@ -1,11 +1,24 @@
+<!--
+    Images can be found at     
+    * https://commons.wikimedia.org/wiki/Category:ISO_7010_safety_signs_(vector_drawings)
+    * https://commons.wikimedia.org/wiki/Category:DIN_4844-2_safety_signs_(vector_drawings)
+
+    View in Google Chrome web browser, make sure you are scrolled to the top
+    of the page.  Use print-preview to view the sign-per page and make the header/
+    footer appear on every page.
+
+    Add new machines at the end by copying an html section.
+    Link to images directly, or add to CSS if it looks like they would be useful to re-use.
+-->
 <html>
 
 <head>
     <style>
         body {
             font-family: Lato, Helvetica, sans-serif;
-
         }
+
+        /* Logo */
         div.logo {
             position: fixed;
             top: 0;
@@ -18,6 +31,7 @@
             height: 75px;
         }
 
+        /* Header and footer */
         div.warn {
             color: red;
             width: 100%;
@@ -41,6 +55,7 @@
             top:0;
         }
         
+        /* Start of a machine for page break */
         .machine {
             page-break-before: always;
             font-size: 52px;
@@ -48,6 +63,7 @@
             text-align: center;
         }
 
+        /* Large center page warning images */
         div.warns {
             padding-top: 50px;
         }
@@ -59,6 +75,7 @@
             margin-right: auto;
         }
 
+        /* Smaller row of symbols at the bottom of the page */
         div.avoids {
             padding-top: 50px;
             text-align: center;
@@ -69,6 +86,8 @@
             display: inline-block;
         }
 
+
+        /* Useful images / symbols that get used over and over */
         .rtfm {
             content:url('https://upload.wikimedia.org/wikipedia/commons/b/b1/ISO_7010_M002.svg');
         }
@@ -85,9 +104,12 @@
 
 <body>
 
+    <!-- logo, header and footer will appear on each page when printed (or scroll view in web browser) -->
     <div class="logo"><img src="https://raw.githubusercontent.com/swindonmakers/Logo/master/IMAGE%202D%20-%20WITH%20TEXT.png"></div>
     <div class="warn header">* INDUCTION REQUIRED *<br /><span>Please ask how this machine works before using it</span></div>
     <div class="warn footer"><span>Please ask how this machine works before using it</span><br/>* INDUCTION REQUIRED *</div>
+
+    <!-- Begin the machines... -->
 
     <div class="machine">PCB Mill</div>
     <div class="warns">
@@ -111,6 +133,7 @@
         <img class="buckleup" />
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/ISO_7010_M021.svg" />
     </div>
+
 
     <div class="machine">Wanhao i3 3d Printer</div>
     <div class="warns">
