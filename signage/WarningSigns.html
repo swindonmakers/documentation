@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Lato, Helvetica, sans-serif;
+
+        }
+        div.logo {
+            position: fixed;
+            top: 0;
+            right:0;
+        }
+
+        .logo img {
+            padding: 5px;
+            width: 75px;
+            height: 75px;
+        }
+
+        div.warn {
+            color: red;
+            width: 100%;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        
+        .warn span {
+            font-size: 18px;
+            font-weight: normal;
+            color: black;
+        }
+        div.footer {
+            position: fixed;
+            bottom: 0;
+            
+        }
+        div.header {
+            position: fixed;
+            top:0;
+        }
+        
+        .machine {
+            page-break-before: always;
+            font-size: 52px;
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        div.warns {
+            padding-top: 50px;
+        }
+        div.warns img {
+            width:250px;
+            height:250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.avoids {
+            padding-top: 50px;
+            text-align: center;
+        }
+        div.avoids img{
+            width: 150px;
+            height:150px;
+            display: inline-block;
+        }
+
+        .rtfm {
+            content:url('https://upload.wikimedia.org/wikipedia/commons/b/b1/ISO_7010_M002.svg');
+        }
+        .eye-protect {
+            content: url('https://upload.wikimedia.org/wikipedia/commons/0/01/ISO_7010_M004.svg');
+        }
+
+        .buckleup {
+            content: url('https://upload.wikimedia.org/wikipedia/commons/b/b8/ISO_7010_M020.svg');
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="logo"><img src="https://raw.githubusercontent.com/swindonmakers/Logo/master/IMAGE%202D%20-%20WITH%20TEXT.png"></div>
+    <div class="warn header">* INDUCTION REQUIRED *<br /><span>Please ask how this machine works before using it</span></div>
+    <div class="warn footer"><span>Please ask how this machine works before using it</span><br/>* INDUCTION REQUIRED *</div>
+
+    <div class="machine">PCB Mill</div>
+    <div class="warns">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/ISO_7010_W018.svg" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/ISO_7010_W022.svg" />
+    </div>
+    <div class="avoids">
+        <img class="rtfm" />
+        <img class="eye-protect" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/ISO_7010_P022.svg"/>
+    </div>
+
+
+    <div class="machine">Prusa i2 3d Printer</div>
+    <div class="warns">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ISO_7010_W025.svg" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/ISO_7010_W017.svg" />
+    </div>
+    <div class="avoids">
+        <img class="rtfm" />
+        <img class="buckleup" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/ISO_7010_M021.svg" />
+    </div>
+
+    <div class="machine">Wanhao i3 3d Printer</div>
+    <div class="warns">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ISO_7010_W025.svg" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/ISO_7010_W017.svg" />
+    </div>
+    <div class="avoids">
+        <img class="rtfm" />
+        <img class="buckleup" />
+    </div>
+
+</body>
+
+</html>
